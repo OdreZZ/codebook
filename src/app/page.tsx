@@ -70,7 +70,7 @@ export default function Home() {
                     Find anything.
                 </h1>
                 <h2 className="text-slate-600 text-2xl">
-                    The next era of media storage. A DAM so good, we don't hide behind demos—see for yourself.
+                    The next era of media storage. A DAM so good, we don&apos;t hide behind demos—see for yourself.
                 </h2>
                 <div>
                     <CommonButton size={CommonButtonSize.LARGE}
@@ -205,7 +205,7 @@ export default function Home() {
                         One Codebook. Unlimited Collaborators.
                     </h1>
                     <div className="text-lg text-center">
-                        Unlock your team's full potential. One hub for all your projects, files, and inspiration.
+                        Unlock your team&apos;s full potential. One hub for all your projects, files, and inspiration.
                     </div>
                     <div className="flex justify-center mt-5">
                         <CommonButton onClick={() => console.log("Book demo")}>

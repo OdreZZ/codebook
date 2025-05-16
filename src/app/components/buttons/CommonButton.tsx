@@ -9,7 +9,7 @@ export enum CommonButtonSize {
 }
 
 interface CommonButtonProps {
-    width?: Number,
+    width?: number,
     onClick: () => void,
     children: React.ReactNode;
     theme?: ColorTheme,
