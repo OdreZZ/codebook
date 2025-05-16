@@ -1,1 +1,33 @@
 @import "tailwindcss";
+
+@theme inline {
+    --font-sans: var(--font-stabil);
+}
+
+body {
+    text-rendering: optimizeLegibility;
+}
+
+@layer utilities {
+    .text-gradient {
+        background: linear-gradient(70deg, #7b54f2, #ff667e, #ffab6f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@theme {
+    --animate-fade-in: fadeIn 2.2s ease-in-out 1;
+
+    @keyframes fadeIn {
+
+        0%,
+        100% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 1;
+        }
+    }
+}
